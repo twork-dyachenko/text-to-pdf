@@ -15,3 +15,54 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+h1{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h2{
+  margin-top: 60px;
+}
+
+button{
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  transition: .3s;
+  opacity: .88;
+  background: rgb(252, 184, 17);  
+}
+
+button:hover{
+  box-shadow: 0 0 12px 1px #0000003b;
+  opacity: 1;
+}
+
+svg{
+  margin-left: 10px;
+}
+
+.pdf-layout{
+  max-width: 760px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.pdf-window{
+  background: #000000;
+  padding: 2px;
+  transition: .3s;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.pdf-window p {
+  color: #fff;
+}
+
+.pdf-window button{
+  opacity: 1;
+}
